@@ -10,8 +10,8 @@ a {
 }
 
 body {
-  background-color: #2e3440;
-  color: #d8dee9;
+  background-color: #ffff;
+  color: #000;
   overflow-x: hidden;
 }
 
@@ -20,7 +20,7 @@ body p {
 }
 
 nav {
-  background-color: #3b4252;
+  background-color: #6daffe;
 }
 
 nav .navbar .container-fluid .nav-link {
@@ -32,7 +32,7 @@ nav .container-fluid .collapse .navbar-nav a {
 }
 
 section .container-fluid .home-text .home-text-color {
-  color: #88c0d0;
+  color: #6daffe;
 }
 
 section .container-lg .row .about-text-programming b {
@@ -87,7 +87,7 @@ section .container-lg .row .about-text-programming b {
 }
 
 #about {
-  background-color: #fffff;
+  background-color: #ffff;
 }
 
 #volunteering-expericence {
@@ -95,7 +95,7 @@ section .container-lg .row .about-text-programming b {
 }
 
 #certification {
-  background-color: #434c5e;
+  background-color: #fff;
 }
 
 section a {
@@ -113,7 +113,7 @@ section .mb-4 {
 }
 
 section .container-lg .section-title h2 {
-  color: #d8dee9;
+  color: #000;
   text-transform: capitalize;
 }
 
@@ -132,4 +132,40 @@ section img .apple-icon {
 .drawing .splide__slide img {
   width: 350px !important;
   height: 500px !important;
+}
+
+.button-two {
+  border-radius: 4px;
+  background-color:#6daffe;
+  border: none;
+  padding: 10px;
+  width: 150px;
+  transition: all 0.5s;
+}
+
+
+.button-two span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button-two span:after {
+  /* content: '»'; */
+  content: '😁';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button-two:hover span {
+  padding-right: 25px;
+}
+
+.button-two:hover span:after {
+  opacity: 1;
+  right: 0;
 }

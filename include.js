@@ -1,6 +1,6 @@
 $(function () {
   $(".typed").typed({
-    strings: ["Frontend Developer", "UI Engineer"],
+    strings: ["Frontend Developer", "Web Developer"],
     stringsElement: null,
     typeSpeed: 30,
     startDelay: 1200,
